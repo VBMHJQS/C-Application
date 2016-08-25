@@ -16,7 +16,6 @@ int main()
 
     Test* t2 = new Test();
     t2->a = 5;
-
     cout << "&t1:" << t1 << " a = " << t1->a << endl;
     cout << "&t2:" << t2 <<  " a = " << t2->a <<endl;
 
