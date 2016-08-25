@@ -9,7 +9,7 @@ int main(){
 	ptr = var;
 	cout << "sizeof: " << sizeof(ptr[1]) << endl;
 	cout << "sizeof: " << (*ptr) << endl;
-	cout << "sizeof: " << (*ptr + sizeof(ptr)) << endl;
+	cout << "sizeof: " << (*(ptr+2)) << endl;
 	for(int i = 0;i<MAX;i++){
 		cout<<"Address of var["<<i <<"] = ";
 		cout<< ptr << endl;
