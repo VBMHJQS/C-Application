@@ -1,6 +1,6 @@
-#include <stdlib.h>
 #include <iostream>
 #include <string.h>
+#include <string>
 
 using namespace std;
 
@@ -14,7 +14,7 @@ int main(){
 
 	Field field;
 	field.count = 10;
-	field.name = "wangxc";
+	field.name = "xiaoming";
 	field.price = 10.20;
 	
 	Field *pfield = &field;
